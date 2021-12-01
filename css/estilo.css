@@ -26,6 +26,19 @@
  	width: 60%;
  	flex-wrap: wrap;}
  
+<<<<<<< HEAD
+=======
+ /*.logo {
+ 	font-size: 300%;
+ background-image: url(../assets/ts.jpg);
+	background-size: contain;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	font-weight: 700;*/
+}
+>>>>>>> 590ce1db8bf185fd8f768a2fbf3f48cc5ba5c63a
  
 .Oferta {
 	height: 25%;
