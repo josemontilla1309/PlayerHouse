@@ -1,25 +1,22 @@
-html{
+.contenido{
 	font-family: 'Grandstander', cursive;
 	background: #0077B6;
 	list-style-type: none;
 	text-decoration-line: none;
-	color: whitesmoke;
+	color: black;
 }
- .barraNav{
- 	display: flex;
- 	justify-content: center;
- 	width: 100%;
- 	font-size: 125%;
- 	list-style-type: none;
-	text-decoration-line: none;
- }
+
+.nav{
+	font-weight: 1000;
+	font-size: 110%;
+}
 
  .li1 {
  	padding: 5%;
  	padding-top: 0;
  	padding-bottom: 0;
  	background: #4EA8DE;
- 	color: whitesmoke;
+ 	color: black;
  	list-style-type: none;
 	text-decoration-line: none}
 
@@ -29,16 +26,6 @@ html{
  	width: 60%;
  	flex-wrap: wrap;}
  
- .logo {
- 	font-size: 300%;
- background-image: url(../assets/ts.jpg);
-	background-size: contain;
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	color: black;
-	font-weight: 700;
-}
  
 .Oferta {
 	height: 25%;
@@ -62,17 +49,17 @@ main div a {
 		display: flex;
 		justify-content: center;}
 
-.footer	{/*background-image: url(../assets/ts.jpg);
-	background-size: contain*/;
+.footer	{
 	border: solid black 4px;
 	margin: 1%;
+	background-image: url(../assets/ts.jpg);
+	background-size: contain;
 }
 
 a {
 	list-style-type: none;
 	text-decoration-line: none;
-	color: whitesmoke;
-}
+	color: black;}
 
 .pops{
 	display: flex;
@@ -132,8 +119,6 @@ li{list-style-type: none;
 
 .logo2{
 	font-size: 250%;
-	background-image: url(../assets/ts.jpg);
-	background-size: contain;
 	display: flex;
 	justify-content: space-around;
 	color: black;
@@ -143,11 +128,13 @@ li{list-style-type: none;
 .navFooter{
 	display: flex;
 	justify-content: center;
+	color: black;
 }
 
 .liFooter{
 	padding: 1%;
 	font-size: 125%;
+	color: black;
 }
 
 .contacto{
@@ -158,7 +145,7 @@ li{list-style-type: none;
 	display: flex;
 	justify-content: center;
 	margin: auto;
-padding: 1%;
+	padding: 1%;
 }
 
 .margin1{
@@ -188,15 +175,6 @@ justify-content: center;
 	padding: 2%;
 }
 
-.contenido{
-	display: grid;
-	grid-template-areas: 
-	"header header header"
-	"main main main"
-	"footer footer footer";
-	grid-template-rows: repeat(3 33.34%);
-	grid-template-columns: repeat(3 33.34%);
-}
 
 header{
 	grid-area: header;
@@ -296,4 +274,8 @@ footer{
 .estrenos.animate__animated:hover{
 animation-iteration-count: infinite;
 animation-duration: 1.5s;
+}
+
+.contacto0{
+	padding: 1%;
 }
