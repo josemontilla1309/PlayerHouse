@@ -29,7 +29,7 @@ html{
  	width: 60%;
  	flex-wrap: wrap;}
  
- .logo {
+ /*.logo {
  	font-size: 300%;
  background-image: url(../assets/ts.jpg);
 	background-size: contain;
@@ -37,7 +37,7 @@ html{
 	display: flex;
 	justify-content: space-around;
 	color: black;
-	font-weight: 700;
+	font-weight: 700;*/
 }
  
 .Oferta {
